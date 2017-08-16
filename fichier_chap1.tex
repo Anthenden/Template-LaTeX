@@ -1,0 +1,17 @@
+\providecommand{\setflag}{\newif \ifwhole
+\wholefalse}
+\setflag
+
+\ifwhole\else
+     \documentclass[12pt]{thesis}
+     \usepackage{psfig}
+     \usepackage[square]{natbib}
+
+     \pssilent
+     \renewcommand{\baselinestretch}{1.5} \small\normalsize
+     \pagenumbering{arabic}
+     \pagestyle{myheadings}
+     \setcounter{page}{54}
+     \setcounter{chapter}{3}
+ \begin{document}
+\fi
