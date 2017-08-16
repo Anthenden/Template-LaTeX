@@ -1,0 +1,10 @@
+\input{packages}
+\input{commande}
+\input{page}
+\newif\ifproof
+\newcommand{\demo}[1]{\ifproof #1 \else \fi}
+ %Instruction d'utilisation : 
+%les preuves du texte sont, en principe, entre des balises \demo, en sus des \begin{proof} pour l'instant.
+%Laisser le texte tel quel, fait qu'elles ne sont pas affichées.
+%Mettre \prooftrue fait que toutes les preuves jusqu'à un \prooffalse ou la fin du document. 
+

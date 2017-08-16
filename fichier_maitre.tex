@@ -1,25 +1,16 @@
-\newcommand{\setflag}{\newif \ifwhole
-\wholetrue}
-
-\documentclass[12pt]{thesis}
-
-\setflag
+\documentclass[a4page,10pt]{article}
+\input{intro}
 
 
 \begin{document}
 
+
+\title{Pouet}
+\author{Moi}
+
+\maketitle
  
-\include{chapter1.tex}
-\include{chapter2.tex}
-\include{chapter3.tex}
-\include{chapter4.tex}
-\include{chapter5.tex}
-\include{chapter6.tex}
-\include{chapter7.tex}
-\include{append1.tex}
-\include{append2.tex}
-\include{append3.tex}
-\include{append4.tex}
-(etc)
+\input{fichier_chap1.tex}
+
 
 \end{document}
