@@ -7,4 +7,9 @@
 \usepackage[all]{xy}
 \usepackage{hyperref}
 \usepackage{fancyhdr}
+\usepackage{supertabular}
 \pagestyle{plain}
+
+\toks0=\expandafter{\xy}
+\edef\xy{\noexpand\shorthandoff{!?;:}\the\toks0 }
+\def\commutatif{\ar@{}[rd]|{\circlearrowleft}}
